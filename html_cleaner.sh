@@ -19,4 +19,7 @@ sed -i '' '1i\
 sed -i '' '$a\
 <footer><p>&copy; 2024 Web Cleaner</p></footer>' "$OUTPUT_FILE"
 
+echo "Preview of cleaned HTML:"
+cat "$OUTPUT_FILE"
+
 echo "Done. Output saved to $OUTPUT_FILE"
